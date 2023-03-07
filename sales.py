@@ -35,7 +35,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 dfdata = pd.read_csv('Adversiting.csv')
-dfdata = dfdata.drop([Unnamed: 0'],axis=1)
+dfdata = dfdata.drop(['Unnamed: 0'],axis=1)
 X = dfdata.drop(['Sales'],axis=1)
 Y = dfdata.Sales
 
