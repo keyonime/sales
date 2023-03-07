@@ -44,11 +44,11 @@ clf.fit(X, Y)
 prediction = clf.predict(df)
 #prediction_proba = clf.predict_proba(df)
 
-st.subheader('Class labels and their corresponding index number')
-st.write(dfdata.target_names)
+#st.subheader('Class labels and their corresponding index number')
+#st.write(dfdata.Sales)
 
 st.subheader('Prediction')
-st.write(dfdata.target_names[prediction])
+st.write(prediction)
 #st.write(prediction)
 
 #st.subheader('Prediction Probability')
