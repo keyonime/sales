@@ -33,7 +33,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-dfdata = pd.read_csv('Adversiting.csv')
+dfdata = pd.read_csv('Advertising.csv')
 dfdata = dfdata.drop(['Unnamed: 0'],axis=1)
 X = dfdata.drop(['Sales'],axis=1)
 Y = dfdata.Sales
