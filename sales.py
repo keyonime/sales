@@ -9,7 +9,6 @@ Original file is located at
 
 import streamlit as st
 import pandas as pd
-from sklearn import datasets
 from sklearn.linear_model import LinearRegression
 
 st.write("""
